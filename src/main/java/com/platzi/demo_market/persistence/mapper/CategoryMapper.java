@@ -11,7 +11,7 @@ import org.mapstruct.Mappings;
 public interface CategoryMapper {
 
     @Mappings({
-            @Mapping(source = "IdCategoria", target = "categoryId"),
+            @Mapping(source = "idCategoria", target = "categoryId"),
             @Mapping(source = "descripcion", target = "category"),
             @Mapping(source = "estado", target = "active")
     })

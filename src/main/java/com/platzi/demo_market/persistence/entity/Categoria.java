@@ -11,7 +11,7 @@ public class Categoria {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column (name = "id_categoria")
-    private Integer IdCategoria;
+    private Integer idCategoria;
 
     private String descripcion;
     private Boolean estado;
@@ -28,11 +28,11 @@ public class Categoria {
     }
 
     public Integer getIdCategoria() {
-        return IdCategoria;
+        return idCategoria;
     }
 
     public void setIdCategoria(Integer idCategoria) {
-        IdCategoria = idCategoria;
+        idCategoria = idCategoria;
     }
 
     public String getDescripcion() {
